@@ -1,3 +1,18 @@
+import React from "react";
+
+import "./MobileMealPlanner.css";
+
+export default function MobileMealPlanner() {
+  return (
+    <div className="meal-planner">
+      <div className="maintenance-message">
+        <h2>Site Bakımda</h2>
+        <p>Aralık ayı listesi 2 gün sonra yayınlanacak.</p>
+      </div>
+    </div>
+  );
+}
+
 // import React, { useState, useEffect } from "react";
 // import { useSwipeable } from "react-swipeable";
 // import {
@@ -193,18 +208,3 @@
 //     </div>
 //   );
 // }
-
-import React from "react";
-
-import "./MobileMealPlanner.css";
-
-export default function MobileMealPlanner() {
-  return (
-    <div className="meal-planner">
-      <div className="maintenance-message">
-        <h2>Site Bakımda</h2>
-        <p>Aralık ayı listesi 2 gün sonra yayınlanacak.</p>
-      </div>
-    </div>
-  );
-}
