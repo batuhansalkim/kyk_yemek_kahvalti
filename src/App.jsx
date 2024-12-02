@@ -195,6 +195,7 @@
 // }
 
 import React from "react";
+
 import "./MobileMealPlanner.css";
 
 export default function MobileMealPlanner() {
