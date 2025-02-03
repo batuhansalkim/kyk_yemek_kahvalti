@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="description" content="KYK Yurt Yemek Menüsü - Günlük kahvaltı ve akşam yemeği listesi" />
+  <link rel="manifest" href="/manifest.json" />
+  <title>KYK Yemek</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(registration => {
+            console.log('ServiceWorker başarıyla kaydedildi:', registration.scope);
+          })
+          .catch(error => {
+            console.error('ServiceWorker kaydı başarısız:', error);
+          });
+      });
+    }
+  </script>
+</body>
+
+</html>
