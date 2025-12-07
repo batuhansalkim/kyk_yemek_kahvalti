@@ -628,13 +628,12 @@
       "tarih": "27.12.2025",
       "gun": "Cumartesi",
       "kahvalti": {
-        "ana_urun": "Patates Kızartması",
-        "ana_urun2": "Haşlanmış Yumurta",
+        "ana_urun": "Peynirli Omlet",
+        "ana_urun2": "Simit",
         "kahvaltilik": [
-          "Beyaz Peynir",
+          "Kaşar Peynir",
           "Siyah/Yeşil Zeytin",
           "Tahin Pekmez"
-
         ],
         "ekmek": "Çeyrek Ekmek",
         "su": "500 ml Su",
@@ -645,23 +644,20 @@
         "ana_yemek": "Etsiz Nohut Yemeği / Karnabahar Kızartması (yoğurtlu)",
         "yardimci_yemek": "Şehriyeli Bulgur Pilavı",
         "ek": "Kemalpaşa",
-
         "ekmek": "Çeyrek Ekmek",
         "su": "500 ml Su"
-      }      
+      }
     },
     {
       "tarih": "28.12.2025",
       "gun": "Pazar",
       "kahvalti": {
-        "ana_urun": "Peynirli Omlet",
-        "ana_urun2": "Simit",
+        "ana_urun": "Patates Kızartması",
+        "ana_urun2": "Haşlanmış Yumurta",
         "kahvaltilik": [
-          "Kaşar Peynir",
+          "Beyaz Peynir",
           "Siyah/Yeşil Zeytin",
-          "Mevsim Sebzeleri Söğüş (Beyaz Lahana-Havuç-Mor Lahana)",
-          "Tahinli Pekmez"
-
+          "Mevsim Sebzeleri Söğüş (Beyaz Lahana-Havuç-Mor Lahana)"
         ],
         "ekmek": "Çeyrek Ekmek",
         "su": "500 ml Su",
@@ -672,11 +668,6 @@
         "ana_yemek": "Kadınbudu Köfte (Patates Püresi) / Patates Yemeği",
         "yardimci_yemek": "Arpa Şehriye Pilavı",
         "ek": "Ayran",
-
-        "corba": "Mercimek/Şehriye Çorbası",
-        "ana_yemek": "Tas Kebabı / Karışık Dolma (yoğurt ile)",
-        "yardimci_yemek": "Arpa Şehriye Pilavı",
-        "ek": "Acılı Ezme",
         "ekmek": "Çeyrek Ekmek",
         "su": "500 ml Su"
       }
