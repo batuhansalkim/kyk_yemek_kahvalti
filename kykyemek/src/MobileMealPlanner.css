@@ -1,3 +1,4 @@
+
 /* MobileMealPlanner.css */
 
 :root {
@@ -13,7 +14,51 @@
   --accent-color: #667eea;
   --secondary-color: #764ba2;
 }
+.loading-wrapper {
+  position: fixed;
+  inset: 0;
+  background-color: #0f0f0f; /* dark mode uyumlu */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
 
+.loading-dots {
+  display: flex;
+  gap: 8px;
+  font-size: 64px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.loading-dots span {
+  animation: blink 1.4s infinite both;
+}
+
+.loading-dots span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.loading-dots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.loading-dots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0.2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
 [data-theme="dark"] {
   --background-gradient-start: #1a1a2e;
   --background-gradient-end: #16213e;
